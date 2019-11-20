@@ -2,8 +2,8 @@ c:\users\user\documents\visual studio 2012\Projects\Payroll\Payroll\bin\Debug\Pa
 c:\users\user\documents\visual studio 2012\Projects\Payroll\Payroll\bin\Debug\Payroll.exe
 c:\users\user\documents\visual studio 2012\Projects\Payroll\Payroll\bin\Debug\Payroll.pdb
 c:\users\user\documents\visual studio 2012\Projects\Payroll\Payroll\obj\Debug\Payroll.csprojResolveAssemblyReference.cache
-c:\users\user\documents\visual studio 2012\Projects\Payroll\Payroll\obj\Debug\Payroll.login.resources
+c:\users\user\documents\visual studio 2012\Projects\Payroll\Payroll\obj\Debug\Payroll.Properties.Resources.resources
 c:\users\user\documents\visual studio 2012\Projects\Payroll\Payroll\obj\Debug\Payroll.csproj.GenerateResource.Cache
 c:\users\user\documents\visual studio 2012\Projects\Payroll\Payroll\obj\Debug\Payroll.exe
 c:\users\user\documents\visual studio 2012\Projects\Payroll\Payroll\obj\Debug\Payroll.pdb
-c:\users\user\documents\visual studio 2012\Projects\Payroll\Payroll\obj\Debug\Payroll.Properties.Resources.resources
+c:\users\user\documents\visual studio 2012\Projects\Payroll\Payroll\obj\Debug\Payroll.Form1.resources
