@@ -6,4 +6,6 @@ c:\users\user\documents\visual studio 2012\Projects\Payroll\Payroll\obj\Debug\Pa
 c:\users\user\documents\visual studio 2012\Projects\Payroll\Payroll\obj\Debug\Payroll.csproj.GenerateResource.Cache
 c:\users\user\documents\visual studio 2012\Projects\Payroll\Payroll\obj\Debug\Payroll.exe
 c:\users\user\documents\visual studio 2012\Projects\Payroll\Payroll\obj\Debug\Payroll.pdb
-c:\users\user\documents\visual studio 2012\Projects\Payroll\Payroll\obj\Debug\Payroll.Form1.resources
+c:\users\user\documents\visual studio 2012\Projects\Payroll\Payroll\obj\Debug\Payroll.signup.resources
+c:\users\user\documents\visual studio 2012\Projects\Payroll\Payroll\obj\Debug\Payroll.login.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Payroll\Payroll\obj\Debug\Payroll.landingpage.resources
