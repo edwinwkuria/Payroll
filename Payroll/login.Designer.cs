@@ -40,6 +40,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.loginbox.SuspendLayout();
             this.SuspendLayout();
@@ -66,6 +67,7 @@
             // 
             // loginbox
             // 
+            this.loginbox.Controls.Add(this.label4);
             this.loginbox.Controls.Add(this.linkLabel2);
             this.loginbox.Controls.Add(this.label3);
             this.loginbox.Controls.Add(this.linkLabel1);
@@ -124,7 +126,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(141, 60);
+            this.textBox2.Location = new System.Drawing.Point(141, 71);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(143, 20);
@@ -133,7 +135,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(19, 60);
+            this.label2.Location = new System.Drawing.Point(19, 71);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 2;
@@ -155,6 +157,15 @@
             this.label1.Size = new System.Drawing.Size(60, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "User Name";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(138, 46);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(119, 13);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Username is ID Number";
             // 
             // login
             // 
@@ -189,6 +200,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.Label label4;
 
     }
 }

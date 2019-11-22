@@ -52,7 +52,7 @@ namespace Payroll
 
         private void button1_Click(object sender, EventArgs e)
         {
-                        SqlConnection sqlconnection = new SqlConnection("Data Source=EDWINPC\\SQLEXPRESS01;Initial Catalog=payrollDatabase;Persist Security Info=True;User ID=admin;Password=Addicted");
+            SqlConnection sqlconnection = new SqlConnection("Data Source=EDWINPC\\SQLEXPRESS01;Initial Catalog=payrollDatabase;Persist Security Info=True;User ID=admin;Password=Addicted");
             sqlconnection.Open();
             SqlCommand sqlcommand = new SqlCommand("insert into Employees(firstName,secondName, lastName, phoneNumber, altPhoneNumber, dateJoined, idNumber, gender, kraPin, nhif, nssf, Password) values('" + textBox1.Text + "','" + textBox2.Text + "','" + textBox3.Text + "','" + textBox7.Text + "','" + textBox9.Text + "','" + dateTimePicker1.Text + "','" + textBox4.Text + "','" + radioButton2.Text + "','" + textBox5.Text + "','" + textBox6.Text + "','" + textBox8.Text + "','" + textBox10.Text + "')", sqlconnection);
             int i = sqlcommand.ExecuteNonQuery();
@@ -64,6 +64,9 @@ namespace Payroll
             {
                 MessageBox.Show("Operation failed");
             }
+            landingpage landing = new landingpage();
+            landing.Show();
+            this.Hide();
 
         }
 

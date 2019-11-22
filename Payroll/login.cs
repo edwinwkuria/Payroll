@@ -37,20 +37,31 @@ namespace Payroll
 
         private void button1_Click(object sender, EventArgs e)
         {
-            landingpage logIn = new landingpage();
-            logIn.Show();
-            this.Hide();
+            SqlConnection connection = new SqlConnection("Data Source=EDWINPC\\SQLEXPRESS01;Initial Catalog=payrollDatabase;Persist Security Info=True;User ID=admin;Password=Addicted");
+            connection.Open();
+            SqlCommand fetchdata = new SqlCommand("select Password from Employees where idNumber = '"+textBox1.Text+"'", connection);
+            //int Password = fetchdata.ExecuteNonQuery();
+            SqlDataReader storedPass = fetchdata.ExecuteReader();
+            storedPass.Read();
+            String Password = storedPass["Password"].ToString();
+            String Upassword = textBox2.Text.ToString();
+            if (Password == Upassword)
+            {
+                landingpage land = new landingpage();
+                land.Show();
+                this.Hide();
+            }
+            else if (Password != Upassword)
+            {
+                MessageBox.Show("You have entered the wrong Password");
+            }
+            else {
+                MessageBox.Show("User Does not exist");
+            }
         }
 
         private void connect_Click(object sender, EventArgs e)
         {
-            string connetionString;
-            SqlConnection cnn;
-            connetionString = @"Data Source=WIN-50GP30FGO75;Initial Catalog=Demodb;User ID=sa;Password=demol23";
-            cnn = new SqlConnection(connetionString);
-            cnn.Open();
-            MessageBox.Show("Connection Open  !");
-            cnn.Close();
         }
     }
 }
