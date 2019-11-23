@@ -40,8 +40,8 @@ namespace Payroll
 
         private void button2_Click(object sender, EventArgs e)
         {
-            login showLogIn = new login();
-            showLogIn.Show();
+            landingpage  showLanding = new landingpage();
+            showLanding.Show();
             this.Hide();
         }
 

@@ -9,3 +9,4 @@ c:\users\user\documents\visual studio 2012\Projects\Payroll\Payroll\obj\Debug\Pa
 c:\users\user\documents\visual studio 2012\Projects\Payroll\Payroll\obj\Debug\Payroll.signup.resources
 c:\users\user\documents\visual studio 2012\Projects\Payroll\Payroll\obj\Debug\Payroll.login.resources
 C:\Users\user\Documents\Visual Studio 2012\Projects\Payroll\Payroll\obj\Debug\Payroll.landingpage.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Payroll\Payroll\obj\Debug\Payroll.reports.resources
